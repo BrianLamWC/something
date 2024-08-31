@@ -1,6 +1,6 @@
 // src/config.js
 const config = {
-    apiUrl: '13.112.217.154:3333/api/v1',
+    apiUrl: 'http://18.181.197.60:3333/api/v1',
   };
   
 export default config;
