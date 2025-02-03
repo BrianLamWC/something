@@ -9,7 +9,7 @@ const ServiceCard= ({ service }) => {
         <Card className='w-[300px]'>
           <img
             className='h-[200px] w-full rounded-md object-cover'
-            src={`${config.apiUrl}/images/placeholder.jpg`}
+            src={`${config.apiUrl}/images/`}
             alt={service.name}
           />
           <CardContent className='p-4 flex flex-col items-center'>

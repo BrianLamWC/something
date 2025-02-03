@@ -29,7 +29,7 @@ const SignInForm = () => {
     try {
     	const response = await axios.post(`${config.apiUrl}/signin`,data);
 
-		navigate(`/OTP/${response.data.token}`, { replace: true });
+		  navigate(`/OTP/${response.data.token}`, { replace: true });
 
     } catch (e) {
       setError("root", {
